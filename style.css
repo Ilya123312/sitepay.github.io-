@@ -1,0 +1,12 @@
+.h1 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.p {
+  font-size: 1.3rem;
+  line-height: 2;
+  border: 1px solid black;
+  padding: 15px 50px;
+}
