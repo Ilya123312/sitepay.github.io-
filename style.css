@@ -1,0 +1,98 @@
+.h1 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.p {
+  font-size: 1.3rem;
+  line-height: 2;
+  border: 1px solid black;
+  padding: 15px 50px;
+}
+
+body{
+  background-image: url("../img/fortnite.png")
+}
+header{
+  margin-top: 200px;
+  font-family: Potta One, Arial, Helvetica, sans-serif;
+}
+.dws-menu *{
+  margin: 0;
+  padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+  list-style: none;
+}
+.dws-menu > ul{
+  display: flex;
+  justify-content: center;
+}
+.dws-menu ul li a{
+  display: block;
+  background: #ececed/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+  background: #feffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+  ;
+  padding: 15px 30px 15px 40px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.dws-menu > ul li{
+  position: relative;
+  border-right: 1px solid #c7c8ca;
+}
+.dws-menu > ul li > a i.fa{
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  font-size: 18px;
+
+}
+.dws-menu > ul li:first-child{
+  border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+  border-right: 1px solid #b2b3b5;
+}
+.dws-menu li a:hover{
+  background: #454547;
+  color: #ffffff;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+}
+
+
+.dws-menu li ul{
+  position: absolute;
+  min-width: 150px;
+  display: none;
+}
+.dws-menu li > ul li{
+  border: 1px solid #c7c8ca;
+}
+.dws-menu li > ul li a{
+  padding: 10px;
+  text-transform: none;
+  background: #e4e4e5;
+}
+.dws-menu li > ul li ul{
+position: absolute;
+right: -150px;
+top: 0;
+}
+.dws-menu li:hover > ul{
+  display: block;
+}
+
+
+
+
+
+
